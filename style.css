@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#4169e1, #8641E1);
+    padding: 15px;
+}
+
+#cityInput {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#searchBtn {
+    width: 300px;
+    background-color: royalblue;
+    color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#searchTitle {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.lineBreak {
+    border-bottom: 2px solid grey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.cityNames {
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+#response-container {
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+}
+
+.info {
+    margin-top: 7px;
+    display: block;
+}
+
+.cityDate {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.weatherbox {
+    padding: 15px;
+}
+
+.day {
+    background-color: rgb(54, 54, 92);
+    color: white;
+    padding: 15px;
+    margin-right: 20px;
+}
